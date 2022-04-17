@@ -1,24 +1,26 @@
 .intro{
     text-align: center;
+    padding-top: 20vh;
 }
 .monogram{
-    width: 30px;
+  width: 30px;
     height: auto;
     
 }
 .footer{
-    padding-top: 20px;
-    max-width: 30px;
-    margin: 0 auto;
+    
+    position: absolute;
+    bottom: 5%;
+    left: calc(50% - 15px);
 }
 .language{
-    display: flex;
-    padding-top: 20px;
-    padding-right: 100px;
-    justify-content: flex-end;
+    width: fit-content;
+    position: absolute;
+    top: 3%;
+    right: 3%;
 }
 .languageBox{
-    width: 40px;
+    width: fit-content;
     font-size: 10pt;
     text-align: center;
     margin-right: 10px ;
@@ -44,4 +46,84 @@
     display: inline-block;
     margin: 3px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
+.rotate-180 {
+    height: 30px;
+    opacity: 0;
+}
+
+ .btn:hover > .rotate-180   {
+    opacity: 1;
+    display: inline-block;
+    vertical-align: center;
+    font-size: 16pt;
+	-webkit-animation: rotate180 0.8s infinite ease-in-out;
+	        animation: rotate180 0.8s infinite ease-in-out;
+}
+.darkmode{
+    width: fit-content;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    border: 1px black solid;
+}
+.bigSpacer{
+    margin-top: 50px;
+}
+
+.name:hover{
+   color: #f19940 ;
+  
+}
+
+
+
+/** Animations */
+
+@-webkit-keyframes rotate180 {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-300deg);
+    }
+  }
+  @keyframes rotate180{
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+
+
+/** slide-fwd-center */
+@-webkit-keyframes slidetxt{
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  @keyframes slidetxt {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  
+  
