@@ -1,5 +1,5 @@
 import React from 'react';
-import Monogram from '../img/monogram.png'
+import Monogram from '../../img/monogram.png'
 
 const Footer = () => {
     return (

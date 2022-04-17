@@ -1,0 +1,47 @@
+.intro{
+    text-align: center;
+}
+.monogram{
+    width: 30px;
+    height: auto;
+    
+}
+.footer{
+    padding-top: 20px;
+    max-width: 30px;
+    margin: 0 auto;
+}
+.language{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+.languageBox{
+    width: 40px;
+    font-size: 10pt;
+    text-align: center;
+    margin-right: 10px ;
+    padding: 3px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+.languageBox:hover{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+}
+.languageBoxCurrent{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+}
+.btnIntro{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    display: inline-block;
+    margin: 3px;
+    padding: 5px 10px;
+}
