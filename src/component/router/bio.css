@@ -1,0 +1,25 @@
+.ProfilePicture img{
+    max-height: 400px;
+}
+.BioContainer{
+    padding-top: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+}
+.BioContainer article{
+    font-size: 10pt;
+    max-width: 600px;
+}
+.Cross{
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    transform: translate(10px , -30px);
+}

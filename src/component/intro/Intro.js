@@ -1,18 +1,27 @@
 import React from 'react';
 import './intro.css';
+import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+
 
 const Intro = () => {
-    return (
-        <div className='intro'>
-            <span>Hello My name is </span>
-            <h1 className='name'> Jordan Descharles</h1>
-            <span>and here is <span className='semiBold'>my portfolio</span> </span>
-            
-            <p className='bigSpacer'>what do you <span className='semiBold'>want to see ?</span> </p>
+    const { t } = useTranslation();
 
-            <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'> Graphic Design</span> </div>
-            <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'>Front end Development</span></div>
+    return (
+        
+        <div className='intro'>
+            <span>{t('HomePage.part1')} </span>
+            <Link to="/Bio">
+                <h1 className='name'> Jordan Descharles</h1>
+            </Link>
+            <span>{t('HomePage.part2')} </span>
+
+            <p className='bigSpacer'>{t('HomePage.part3')} </p>
+
+            <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'> {t('HomePage.part4')}</span> </div>
+            <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'>{t('HomePage.part5')}</span></div>
         </div>
+
     );
 };
 

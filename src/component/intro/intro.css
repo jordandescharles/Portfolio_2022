@@ -1,47 +1,69 @@
-.intro{
+/* theme mode */
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+};
+
+[data-theme="dark"] {
+    --background-color: #3F3F3F;
+    --text-color: #fff;
+  }
+ /* */ 
+
+.intro {
     text-align: center;
     padding-top: 20vh;
+
 }
-.monogram{
-  width: 30px;
+
+.monogram {
+    width: 30px;
     height: auto;
-    
 }
-.footer{
-    
+
+.footer {
     position: absolute;
     bottom: 5%;
     left: calc(50% - 15px);
 }
-.language{
+
+.language {
     width: fit-content;
     position: absolute;
     top: 3%;
     right: 3%;
 }
-.languageBox{
+
+.languageBox {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
     width: fit-content;
     font-size: 10pt;
     text-align: center;
-    margin-right: 10px ;
+    margin-right: 10px;
     padding: 3px;
-    border: 1px black solid;
     cursor: pointer;
+    border: 1px var(--text-color) solid;
 }
-.languageBox:hover{
-    background-color: black;
-    color: white;
-    border: 1px black solid;
+
+.languageBox:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: 1px var(--text-color) solid;
 }
-.languageBoxCurrent{
-    background-color: black;
-    color: white;
-    border: 1px black solid;
+
+.languageBoxCurrent {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: 1px var(--text-color) solid;
 }
-.btnIntro{
-    background-color: black;
+
+.btnIntro {
+    background-color: var(--text-color);
     text-align: center;
-    color: white;
+    color: var(--background-color);
     width: fit-content;
     display: inline-block;
     margin: 3px;
@@ -54,28 +76,36 @@
     opacity: 0;
 }
 
- .btn:hover > .rotate-180   {
+.btn:hover>.rotate-180 {
     opacity: 1;
     display: inline-block;
     vertical-align: center;
     font-size: 16pt;
-	-webkit-animation: rotate180 0.8s infinite ease-in-out;
-	        animation: rotate180 0.8s infinite ease-in-out;
+    -webkit-animation: rotate180 0.8s infinite ease-in-out;
+    animation: rotate180 0.8s infinite ease-in-out;
 }
-.darkmode{
+
+.darkmodeBtn {
     width: fit-content;
     position: absolute;
     bottom: 5%;
     right: 3%;
-    border: 1px black solid;
 }
-.bigSpacer{
+
+.bigSpacer {
     margin-top: 50px;
 }
 
-.name:hover{
-   color: #f19940 ;
-  
+.name {
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.name:hover {
+    color: #f19940;
 }
 
 
@@ -84,46 +114,24 @@
 
 @-webkit-keyframes rotate180 {
     0% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
     }
-    100% {
-      -webkit-transform: rotateX(-360deg);
-              transform: rotateX(-300deg);
-    }
-  }
-  @keyframes rotate180{
-    0% {
-      -webkit-transform: rotateX(0);
-              transform: rotateX(0);
-    }
-    100% {
-      -webkit-transform: rotateX(-360deg);
-              transform: rotateX(-360deg);
-    }
-  }
 
+    100% {
+        -webkit-transform: rotateX(-360deg);
+        transform: rotateX(-300deg);
+    }
+}
 
-/** slide-fwd-center */
-@-webkit-keyframes slidetxt{
+@keyframes rotate180 {
     0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
     }
+
     100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
+        -webkit-transform: rotateX(-360deg);
+        transform: rotateX(-360deg);
     }
-  }
-  @keyframes slidetxt {
-    0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
-    }
-  }
-  
-  
+}

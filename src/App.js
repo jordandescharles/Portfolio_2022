@@ -1,18 +1,15 @@
 import React from "react";
-import Darkmode from "./component/intro/Darkmode";
-import Footer from "./component/intro/Footer";
-import Intro from "./component/intro/Intro";
-import Language from "./component/intro/Language";
+import { Route, Routes} from "react-router";
+import Home from "./component/router/Homepage"
+import Bio from "./component/router/Bio";
+
 
 function App() {
   return (
-    <div className="App">
-      <Language />
-      <Intro />
-      <Footer />
-      <Darkmode />
-    </div>
-  );
+  <Routes>
+    <Route path="/Bio" element={<Bio />} />
+    <Route path="/" element={<Home />} />
+  </Routes>);
 }
 
 export default App;
