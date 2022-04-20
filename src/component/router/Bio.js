@@ -16,7 +16,7 @@ export default function Bio() {
             <Link to="/"><span className='Cross' >X</span></Link>
             <div className='ProfilePicture'><img src={ProfilePicture} alt="image de profil" /></div>
             <article>
-                <h1> {t('Bio.part1')}</h1>
+                <h1 className='name'> {t('Bio.part1')}</h1>
                 <h3> {t('Bio.part2')}</h3>
                 {t('Bio.part3')}
                 <br /><br />
