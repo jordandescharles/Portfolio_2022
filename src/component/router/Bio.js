@@ -9,8 +9,7 @@ export default function Bio() {
     const { t } = useTranslation();
 
     return (
-        <div data-barba="wrapper">
-            <div data-barba="container" data-barba-namespace="page-b">
+       
                 <div className='BioContainer'>
                     <Link to="/"><span className='Cross' >X</span></Link>
                     <div className='ProfilePicture'><img src={ProfilePicture} alt="image de profil" /></div>
@@ -30,7 +29,6 @@ export default function Bio() {
                         {t('Bio.part8')}
                     </article>
                 </div>
-            </div>
-        </div>
+       
     )
 }

@@ -1,0 +1,30 @@
+{
+    "HomePage": {
+        "part1": "hello my name is",
+        "part2": "and this is my portfolio",
+        "part3": "what do you want to see ?",
+        "part4": "Graphic Design",
+        "part5": "Front end Development"
+    },
+    "Bio": {
+        "part1": "Who Im I ?",
+        "part2": "Jordan Descharles, born in 91 living in Lille",
+        "part3": "Firstly graphic designer i was already attracted by computers even if i only had one one for my 15th birthday, I used to draw on «paint» in others computers before that, and only with a rubber ball mouse (yeap that gross I know).",
+        "part4": "after an Art College i went to a communication school to get a Webdesigner degree, then i had the chance to  get into a really good communication agency were I was formed in order to be able to produce simple websites or print designs",
+        "part5": "Years passed and my will to create more advanced websites kicks in. I leaved my graphic designer job and search for a good school, after few month in a deppressing one I found that Openclassrooms had a degree in Front end developpement including projects with REACT and other cool stuffs.",
+        "part6": "Now I’m nearly on the end of the schoolarship and I’m looking for a Junior job.",
+        "part7": "If you are curious about me : descharlesjordan[at]yahoo.com",
+        "part8": "you can also download my resume here : link"
+    },
+
+    "Print": {
+        "Cochise": {
+            "img": "./img/print/platypus.png",
+            "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral, armée d’ornithorynque . Représentation délirante à l’image du groupe"
+        },
+        "Projet2": {
+            "img": "./img/print/platypus.png",
+            "desc": "la teub a gg"
+        }
+    }
+}
