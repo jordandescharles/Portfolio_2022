@@ -1,3 +1,4 @@
+import './Display.css';
 
 
 export function displayWorks(allData){ 
@@ -8,11 +9,13 @@ export function displayWorks(allData){
   
   function printWork(data){
       
-  return ` <article>
-          <div class="titleArticle">
-              <h2>${data.name}</h2>
-              <img src="${data.img}">
-          </div> 
-      </article>`
+  return ` <article className="article-Container">
+              <div className="image-Container" style="background-image:url(${data.img})">
+                <div className="text-Container">
+                  <h2>${data.name}</h2>
+                  <p className="light-desc">${data.lightDesc}</p>
+                </div>
+              </div>
+            </article>`
   
   } 

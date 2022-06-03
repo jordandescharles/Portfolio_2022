@@ -1,5 +1,4 @@
 
-import Footer from '../../component/intro/Footer';
 import PrintPage from './PrintPage'
 import React, { Component } from 'react';
 
@@ -7,9 +6,8 @@ import React, { Component } from 'react';
 class Print extends Component {
   render() {
     return (
-      <div id='main'>
+      <div className='main-Container'>
         <PrintPage />
-        <Footer/>
       </div>
     );
   }
