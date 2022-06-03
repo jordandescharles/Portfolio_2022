@@ -19,10 +19,12 @@
 
     "Print": {
         "Cochise": {
+            "name": "Cochise",
             "img": "./img/print/platypus.png",
             "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral, armée d’ornithorynque . Représentation délirante à l’image du groupe"
         },
         "Projet2": {
+            "name": "test",
             "img": "./img/print/platypus.png",
             "desc": "la teub a gg"
         }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './bio.css';
-import ProfilePicture from '../../img/pp.jpg'
+
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
@@ -12,7 +12,7 @@ export default function Bio() {
        
                 <div className='BioContainer'>
                     <Link to="/"><span className='Cross' >X</span></Link>
-                    <div className='ProfilePicture'><img src={ProfilePicture} alt="image de profil" /></div>
+                    <div className='ProfilePicture'><img src="/img/pp.jpg" alt=" profil" /></div>
                     <article>
                         <h1 className='name'> {t('Bio.part1')}</h1>
                         <h3> {t('Bio.part2')}</h3>
