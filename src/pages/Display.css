@@ -13,7 +13,7 @@
 }
 
 .image-Container{
-    height: 20vw;
+    height: 18vw;
     border: solid black 3px;
 
     background-position: center;
@@ -31,46 +31,86 @@
 }
 
 .text-Container{
-    height: 50%;
+    height: 40%;
     opacity: 0;
-    background-color: rgba(000, 000, 000, .6);
-    font-size: 1.3vw; 
+    background-color: rgba(000, 000, 000);
 }
 
 .text-Container h2,p{
     margin: 0;
     padding: 5px 20px; 
+    font-size: 1.3vw; 
+
 }
 
+.tag-Container{
+    font-size: 1vw; 
+    text-decoration: underline;
+
+}
+
+.title{
+    width: fit-content;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.title h2{
+    padding:0;
+    margin: 0;
+}
+
+.title-Container{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 8vh 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-20px , 0px);
+}
+.filter-Btn{
+    transform: translate(30px , 0px);
+}
+
+.Cross-Page{
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    width: 20px;
+    height: 20px;
+    text-align: center;  
+    transform: translate(0px , -20px);
+}
 
 /* animation */
  
  @-webkit-keyframes text-up {
     0% {
-        -webkit-transform: translateY(120%);
-                transform: translateY(120%);
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%);
         -webkit-opacity: 0;
                 opacity: 0;
     }
-   
+
     100% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
     -webkit-opacity: 1;
             opacity: 1;
     }
   }
   @keyframes text-up{
     0% {
-        -webkit-transform: translateY(120%);
-                transform: translateY(120%);
+        -webkit-transform: translateY(50%);
+                transform: translateY(50%);
         -webkit-opacity: 0;
                 opacity: 0;
     }
 
     100% {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
     -webkit-opacity: 1;
             opacity: 1;
     }

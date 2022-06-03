@@ -13,7 +13,7 @@ export function displayWorks(allData){
               <div className="image-Container" style="background-image:url(${data.img})">
                 <div className="text-Container">
                   <h2>${data.name}</h2>
-                  <p className="light-desc">${data.lightDesc}</p>
+                  <p className="light-desc">${data.lightDesc} <span className="tag-Container"> #${data.tag}</span></p>
                 </div>
               </div>
             </article>`

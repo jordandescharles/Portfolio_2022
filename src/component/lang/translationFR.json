@@ -26,6 +26,13 @@
                 "lightDesc" :"Jaquette de cd pour un groupe le rock psychédélique Cochise.",
                 "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral, armée d’ornithorynque . Représentation délirante à l’image du groupe"
             },
+            "Spidtec": {
+                "tag":"web",
+                "name": "Spidtec",
+                "img": "img/print/spidtec.jpg",
+                "lightDesc" :"Refonte graphique du site web spidtec.",
+                "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation."
+            },
             "IceOver": {
                 "tag":"print",
                 "name": "Ice Over",
@@ -39,13 +46,6 @@
                 "img": "img/print/hexagon.jpg",
                 "lightDesc" :"Jaquette de cd pour un groupe de metal : Hexagon.",
                 "desc": "Jaquette de cd pour un groupe de metal : Hexagon."
-            },
-            "Spidtec": {
-                "tag":"web",
-                "name": "Spidtec",
-                "img": "img/print/spidtec.jpg",
-                "lightDesc" :"Refonte graphique du site web spidtec.",
-                "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation."
             },
             "SuperKou": {
                 "tag":"web",
