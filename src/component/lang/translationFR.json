@@ -20,85 +20,121 @@
 
         "Print": {
             "Cochise": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Cochise",
+                "CatchPhrase":"Let there be rock",
+                "techno":"Photoshop",
                 "img": "img/print/platypus.png",
                 "lightDesc" :"Jaquette de cd pour un groupe le rock psychédélique Cochise.",
-                "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral, armée d’ornithorynque . Représentation délirante à l’image du groupe"
+                "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral,armée d’ornithorynque .<br/><br/> Représentation délirante à l’image du groupe Cochise aurait pu faire de la pop joyeuse, du folk naif, de l’electro branché ou du métal rageux. Mais il y avait déjà meilleur qu’eux. Alors, les 4 membres de Cochise construisent avec patience un répertoire et leur son.Cochise, c’est le groove qui se bat avec la distortion, c’est le funk/jazz qui veut voir sauter le public, c’est la bande originale d’une comédie musicale qui raconterait la vie d’un vieux chef indien devenu dandy déglingué."
             },
             "Spidtec": {
+                "source":"Print",
                 "tag":"web",
+                "CatchPhrase":"Back to Backend",
+                "techno":"Photoshop Illustrator Magento ",
                 "name": "Spidtec",
                 "img": "img/print/spidtec.jpg",
                 "lightDesc" :"Refonte graphique du site web spidtec.",
                 "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation."
             },
             "IceOver": {
+                "source":"Print",
                 "tag":"print",
+                "CatchPhrase":"Yeah Baby, Ice Over",
+                "techno":"Photoshop Illustrator",
                 "name": "Ice Over",
                 "img": "img/print/iceoldschool.jpg",
                 "lightDesc" :"Logo pour le groupe de cover rock ICE OVER",
                 "desc": "Logo pour le groupe de cover rock ICE OVER"
             },
             "Hexagon": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Hexagon",
+                "CatchPhrase":"Is Hexa here?",
+                "techno":"Photoshop",
                 "img": "img/print/hexagon.jpg",
                 "lightDesc" :"Jaquette de cd pour un groupe de metal : Hexagon.",
                 "desc": "Jaquette de cd pour un groupe de metal : Hexagon."
             },
             "SuperKou": {
+                "source":"Print",
                 "tag":"web",
+                "CatchPhrase":"No stairway ?",
+                "techno":"Photoshop Illustrator HTLM CSS",
                 "name": "SuperKou",
                 "img": "img/print/superkou.jpg",
                 "lightDesc" :"Webdesign réalisé pour le magasin de musique spécialisé dans les guitares.",
                 "desc": "Webdesign réalisé pour le magasin de musique spécialisé dans les guitares : superkou, création de l’identité visuelle et de la charte graphique. Intégration de la superSkool, espace réservé aux novice de la guitare. et design du site façon e-commerce. Le tout dans une ambiance fraiche et dynamique pour donner un site qui permet de se différencier des autres."
             },
             "Ohmydear": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Oh my dear",
+                "CatchPhrase":"A-dearable",
+                "techno":"Illustrator",
                 "img": "img/print/dear.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator",
                 "desc": "Illustration réalisée avec illustrator"
             },
             "batman": {
+                "source":"Print",
                 "tag":"print",
+                "CatchPhrase":"Marvel",
+                "techno":"Illustartor",
                 "name": "Batman X Joker",
                 "img": "img/print/batman.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator",
-                "desc": "Illustration réalisée avec illustrator"
+                "desc": "Illustration réalisée avec illustrator, oui je sais c'est DC comics :)"
             },
             "Owl": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Owl",
+                "CatchPhrase":"Owl lee, she hit",
+                "techno":"photoshop digital painting",
                 "img": "img/print/owl.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator et photoshop",
                 "desc": "Illustration réalisée avec illustrator et photoshop"
             },
             "Tabasco": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Tabasco Green",
+                "CatchPhrase":"Sweeter Better Stronger",
+                "techno":"Photoshop",
                 "img": "img/print/tabasco.jpg",
                 "lightDesc" :"Publicité tabasco Green.",
                 "desc": "Publicité tabasco Green, important de préciser car, c’est toute la différence. Le produit « plus doux » que le classique à une image de tabasco adouci, et donc moins bon. L’idée de cette campagne est de tourner ce problème en bénéfice produit. Car on utilise la douceur comme argument de vente le tout en restant dans le ton de communication de Tabasco."
             },
             "Wildestshirt": {
+                "source":"Print",
                 "tag":"print",
+                "CatchPhrase":"When the road calls you",
+                "techno":"Illustartor",
                 "name": "Wildest the road",
                 "img": "img/print/tshirt.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator pour Wildest",
                 "desc": "Illustration réalisée avec illustrator por Wildest"
             },
             "furious2021": {
+                "source":"Print",
                 "tag":"print",
+                "CatchPhrase":"Are you crazy ?",
+                "techno":"Illustrator photoshop",
                 "name": "FurioUs CirKus",
                 "img": "img/print/furious.jpg",
                 "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
                 "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
             },
             "Machineur": {
+                "source":"Print",
                 "tag":"print",
                 "name": "Le Machineur",
+                "CatchPhrase":"Yes, he can do it",
+                "techno":"Illustartor",
                 "img": "img/print/logoTom.png",
                 "lightDesc" :"Logo réalisé pour Le Machineur",
                 "desc": "Illustration réalisée avec illustrator"

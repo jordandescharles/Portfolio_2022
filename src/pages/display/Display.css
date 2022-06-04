@@ -15,15 +15,13 @@
 .image-Container{
     height: 18vw;
     border: solid black 3px;
-
     background-position: center;
     background-size: cover;
     overflow: hidden 
 }
 
 .image-Container:hover .text-Container{
-    animation: text-up 0.5s both;
-    
+    animation: text-up 0.5s both; 
 }
 
 .main-Container>* {
@@ -36,7 +34,7 @@
     background-color: rgba(000, 000, 000);
 }
 
-.text-Container h2,p{
+.text-Container h2{
     margin: 0;
     padding: 5px 20px; 
     font-size: 1.3vw; 
@@ -81,6 +79,10 @@
     height: 20px;
     text-align: center;  
     transform: translate(0px , -20px);
+}
+a.white-Link, a.white-Link:visited{  
+    color: white;
+    text-transform: none;
 }
 
 /* animation */

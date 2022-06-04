@@ -1,9 +1,7 @@
 
-import PrintPage from './PrintPage'
+import DisplayPage from '../display/DisplayPage'
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
-
 
 class Print extends Component {
 
@@ -27,19 +25,19 @@ class Print extends Component {
     return (
       <>
         <div className='title-Container'>
-          <div style={{display:'flex'}}>
-          <Link to="/"><span className='Cross-Page' >X</span></Link>
-          <div className='title'>
-            <h2>Graphic Design</h2>
+          <div style={{ display: 'flex' }}>
+            <Link to="/"><span className='Cross-Page' >X</span></Link>
+            <div className='title'>
+              <h2>Graphic Design</h2>
+            </div>
           </div>
-</div>
           <div className='filter-Btn'>
             <button className="languageBox" onClick={() => this.updateState('web')} style={this.state.filter === 'web' ? { color: 'white', backgroundColor: 'black' } : {}}>web</button>
             <button className="languageBox" onClick={() => this.updateState('print')} style={this.state.filter === 'print' ? { color: 'white', backgroundColor: 'black' } : {}}>print</button>
           </div>
         </div>
         <div className='main-Container'>
-          <PrintPage filter={this.state.filter} />
+          <DisplayPage filter={this.state.filter} source="Print"/>
         </div>
       </>
     );
