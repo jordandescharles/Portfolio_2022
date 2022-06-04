@@ -25,7 +25,7 @@
 }
 
 .main-Container>* {
-    flex: 1 1 400px;
+    flex: 1 1 500px;
 }
 
 .text-Container{
@@ -36,9 +36,13 @@
 
 .text-Container h2{
     margin: 0;
+    padding: 10px 20px; 
+    font-size: 1.2vw; 
+}
+.text-Container p{
+    margin: 0;
     padding: 5px 20px; 
-    font-size: 1.3vw; 
-
+    font-size: 1vw; 
 }
 
 .tag-Container{

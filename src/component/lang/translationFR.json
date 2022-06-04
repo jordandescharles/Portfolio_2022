@@ -19,15 +19,15 @@
         },
 
         "Print": {
-            "Cochise": {
+            "furious2021": {
                 "source":"Print",
                 "tag":"print",
-                "name": "Cochise",
-                "CatchPhrase":"Let there be rock",
-                "techno":"Photoshop",
-                "img": "img/print/platypus.png",
-                "lightDesc" :"Jaquette de cd pour un groupe le rock psychédélique Cochise.",
-                "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral,armée d’ornithorynque .<br/><br/> Représentation délirante à l’image du groupe Cochise aurait pu faire de la pop joyeuse, du folk naif, de l’electro branché ou du métal rageux. Mais il y avait déjà meilleur qu’eux. Alors, les 4 membres de Cochise construisent avec patience un répertoire et leur son.Cochise, c’est le groove qui se bat avec la distortion, c’est le funk/jazz qui veut voir sauter le public, c’est la bande originale d’une comédie musicale qui raconterait la vie d’un vieux chef indien devenu dandy déglingué."
+                "CatchPhrase":"Are you crazy ?",
+                "techno":"Illustrator photoshop",
+                "name": "FurioUs CirKus",
+                "img": "img/print/furious.jpg",
+                "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
+                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
             },
             "Spidtec": {
                 "source":"Print",
@@ -39,6 +39,16 @@
                 "lightDesc" :"Refonte graphique du site web spidtec.",
                 "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation."
             },
+            "Wildestshirt": {
+                "source":"Print",
+                "tag":"print",
+                "CatchPhrase":"When the road calls you",
+                "techno":"Illustartor",
+                "name": "Wildest the road",
+                "img": "img/print/tshirt.jpg",
+                "lightDesc" :"Illustration réalisée avec illustrator pour Wildest",
+                "desc": "Illustration réalisée avec illustrator por Wildest"
+            },
             "IceOver": {
                 "source":"Print",
                 "tag":"print",
@@ -48,6 +58,16 @@
                 "img": "img/print/iceoldschool.jpg",
                 "lightDesc" :"Logo pour le groupe de cover rock ICE OVER",
                 "desc": "Logo pour le groupe de cover rock ICE OVER"
+            },
+            "Machineur": {
+                "source":"Print",
+                "tag":"print",
+                "name": "Le Machineur",
+                "CatchPhrase":"Yes, he can do it",
+                "techno":"Illustartor",
+                "img": "img/print/logoTom.png",
+                "lightDesc" :"Logo réalisé pour Le Machineur",
+                "desc": "Illustration réalisée avec illustrator"
             },
             "Hexagon": {
                 "source":"Print",
@@ -109,35 +129,15 @@
                 "lightDesc" :"Publicité tabasco Green.",
                 "desc": "Publicité tabasco Green, important de préciser car, c’est toute la différence. Le produit « plus doux » que le classique à une image de tabasco adouci, et donc moins bon. L’idée de cette campagne est de tourner ce problème en bénéfice produit. Car on utilise la douceur comme argument de vente le tout en restant dans le ton de communication de Tabasco."
             },
-            "Wildestshirt": {
+            "Cochise": {
                 "source":"Print",
                 "tag":"print",
-                "CatchPhrase":"When the road calls you",
-                "techno":"Illustartor",
-                "name": "Wildest the road",
-                "img": "img/print/tshirt.jpg",
-                "lightDesc" :"Illustration réalisée avec illustrator pour Wildest",
-                "desc": "Illustration réalisée avec illustrator por Wildest"
-            },
-            "furious2021": {
-                "source":"Print",
-                "tag":"print",
-                "CatchPhrase":"Are you crazy ?",
-                "techno":"Illustrator photoshop",
-                "name": "FurioUs CirKus",
-                "img": "img/print/furious.jpg",
-                "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
-                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
-            },
-            "Machineur": {
-                "source":"Print",
-                "tag":"print",
-                "name": "Le Machineur",
-                "CatchPhrase":"Yes, he can do it",
-                "techno":"Illustartor",
-                "img": "img/print/logoTom.png",
-                "lightDesc" :"Logo réalisé pour Le Machineur",
-                "desc": "Illustration réalisée avec illustrator"
+                "name": "Cochise",
+                "CatchPhrase":"Let there be rock",
+                "techno":"Photoshop",
+                "img": "img/print/platypus.png",
+                "lightDesc" :"Jaquette de cd pour un groupe le rock psychédélique Cochise.",
+                "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral,armée d’ornithorynque .<br/><br/> Représentation délirante à l’image du groupe Cochise aurait pu faire de la pop joyeuse, du folk naif, de l’electro branché ou du métal rageux. Mais il y avait déjà meilleur qu’eux. Alors, les 4 membres de Cochise construisent avec patience un répertoire et leur son.Cochise, c’est le groove qui se bat avec la distortion, c’est le funk/jazz qui veut voir sauter le public, c’est la bande originale d’une comédie musicale qui raconterait la vie d’un vieux chef indien devenu dandy déglingué."
             }
         }
     }
