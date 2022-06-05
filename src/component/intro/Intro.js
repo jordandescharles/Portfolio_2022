@@ -22,8 +22,9 @@ const Intro = () => {
             <Link to="/Print">
                 <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'> {t('HomePage.part4')}</span> </div>
             </Link>
-
+            <Link to="/Web">
             <div className='btn'><span className='rotate-180'>&#62;</span><span className='btnIntro'>{t('HomePage.part5')}</span></div>
+            </Link>
         </div>
 
     );

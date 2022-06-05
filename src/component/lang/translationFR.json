@@ -37,7 +37,7 @@
                 "name": "Spidtec",
                 "img": "img/print/spidtec.jpg",
                 "lightDesc" :"Refonte graphique du site web spidtec.",
-                "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation."
+                "desc": "Refonte graphique du site web spidtec, création de visuels et mise en place d’une double navigation. Spidtec, vends des tentes depiables personnaliées ou non. une large ganme de produits et de déclinaisons, ce qui rends le processus de refonte assez delicat le tout en restant cohérant avec la précédente charte afin de ne pas trop bouleverser les clients"
             },
             "Wildestshirt": {
                 "source":"Print",
@@ -47,7 +47,7 @@
                 "name": "Wildest the road",
                 "img": "img/print/tshirt.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator pour Wildest",
-                "desc": "Illustration réalisée avec illustrator por Wildest"
+                "desc": "Wildest, groupe de Wildmetal ou j'officie comme bassiste. Création d'un visuel pour la sortie de the road, premier album déja disponible sur toutes les plateformes <br/><a href='http://www.wildest.fr' target=blank style='text-decoration:underline'> le site internet </a>"
             },
             "IceOver": {
                 "source":"Print",
@@ -67,7 +67,7 @@
                 "techno":"Illustartor",
                 "img": "img/print/logoTom.png",
                 "lightDesc" :"Logo réalisé pour Le Machineur",
-                "desc": "Illustration réalisée avec illustrator"
+                "desc": "Illustration réalisée pour un roi du bricolage et du craft en général, si vous avez une idée il peut certainement la réaliser"
             },
             "Hexagon": {
                 "source":"Print",
@@ -138,6 +138,18 @@
                 "img": "img/print/platypus.png",
                 "lightDesc" :"Jaquette de cd pour un groupe le rock psychédélique Cochise.",
                 "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral,armée d’ornithorynque .<br/><br/> Représentation délirante à l’image du groupe Cochise aurait pu faire de la pop joyeuse, du folk naif, de l’electro branché ou du métal rageux. Mais il y avait déjà meilleur qu’eux. Alors, les 4 membres de Cochise construisent avec patience un répertoire et leur son.Cochise, c’est le groove qui se bat avec la distortion, c’est le funk/jazz qui veut voir sauter le public, c’est la bande originale d’une comédie musicale qui raconterait la vie d’un vieux chef indien devenu dandy déglingué."
+            }
+        },
+        "Web": {
+            "furious2021": {
+                "source":"Web",
+                "tag":"print",
+                "CatchPhrase":"Are you crazy ?",
+                "techno":"Illustrator photoshop",
+                "name": "FurioUs CirKus",
+                "img": "img/print/furious.jpg",
+                "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
+                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
             }
         }
     }

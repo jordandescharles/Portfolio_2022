@@ -1,0 +1,45 @@
+import DisplayPage from '../display/DisplayPage'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+export default class Web extends Component {
+
+        constructor(props) {
+            super(props)
+            this.state = { filter: '' }
+            this.updateState = this.updateState.bind(this)
+          }
+        
+          updateState(filterValue) {
+            if (this.state.filter === filterValue) {
+              this.setState({ filter: '' })
+            }
+            else {
+              this.setState({ filter: filterValue })
+            }
+          }
+        
+        
+          render() {
+            return (
+              <>
+                <div className='title-Container'>
+                  <div style={{ display: 'flex' }}>
+                    <Link to="/"><span className='Cross-Page' >X</span></Link>
+                    <div className='title'>
+                      <h2>Web front dev</h2>
+                    </div>
+                  </div>
+                  <div className='filter-Btn'>
+                    <button className="languageBox" onClick={() => this.updateState('web')} style={this.state.filter === 'web' ? { color: 'white', backgroundColor: 'black' } : {}}>web</button>
+                    <button className="languageBox" onClick={() => this.updateState('print')} style={this.state.filter === 'print' ? { color: 'white', backgroundColor: 'black' } : {}}>print</button>
+                  </div>
+                </div>
+                <div className='main-Container'>
+                  <DisplayPage filter={this.state.filter} source="Web"/>
+                </div>
+              </>
+            );
+          }
+        }
+    
