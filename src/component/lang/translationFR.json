@@ -141,15 +141,55 @@
             }
         },
         "Web": {
-            "furious2021": {
+            "GameOn": {
                 "source":"Web",
-                "tag":"print",
-                "CatchPhrase":"Are you crazy ?",
-                "techno":"Illustrator photoshop",
-                "name": "FurioUs CirKus",
-                "img": "img/print/furious.jpg",
-                "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
-                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
+                "tag":"JS",
+                "CatchPhrase":"Is this a Pokemon?",
+                "techno":"Javascript",
+                "name": "GameOn",
+                "img": "img/web/gameon.png",
+                "lightDesc" :"Landing page html/css/JS responsive",
+                "desc": "GameOn, spécialisée dans les conférences et les concours de jeux, création d'une landing page avec un formulaire dynamique. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "FishEye": {
+                "source":"Web",
+                "tag":"JS",
+                "CatchPhrase":"Photo booth",
+                "techno":"Javascript",
+                "name": "FishEye",
+                "img": "img/web/fisheye.png",
+                "lightDesc" :"Site accessible html/css/JS responsive",
+                "desc": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "petitsPlats": {
+                "source":"Web",
+                "tag":"JS",
+                "CatchPhrase":"Marmytho",
+                "techno":"Javascript Vanilla",
+                "name": "Les petits plats",
+                "img": "img/web/petitsplats.png",
+                "lightDesc" :"Site html/css/JS responsive",
+                "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "Reservia": {
+                "source":"Web",
+                "tag":"html",
+                "CatchPhrase":"Hit the road Jack",
+                "techno":"Html Css",
+                "name": "Reservia",
+                "img": "img/web/reservia.png",
+                "lightDesc" :"Site one page html/css responsive",
+                "desc": "site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, budget ou ambiance. design basé sur le Material Design <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "OhMyFood": {
+                "source":"Web",
+                "tag":"html",
+                "CatchPhrase":"Hunger X Hunger",
+                "techno":"Html Css",
+                "name": "Oh my Food",
+                "img": "img/web/ohmy.png",
+                "lightDesc" :"Site html/css responsive",
+                "desc": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             }
         }
     }
