@@ -31,8 +31,10 @@ export default class Web extends Component {
                     </div>
                   </div>
                   <div className='filter-Btn'>
-                    <button className="languageBox" onClick={() => this.updateState('web')} style={this.state.filter === 'web' ? { color: 'white', backgroundColor: 'black' } : {}}>web</button>
-                    <button className="languageBox" onClick={() => this.updateState('print')} style={this.state.filter === 'print' ? { color: 'white', backgroundColor: 'black' } : {}}>print</button>
+                    <button className="languageBox" onClick={() => this.updateState('Html')} style={this.state.filter === 'Html' ? { color: 'white', backgroundColor: 'black' } : {}}>Html</button>
+                    <button className="languageBox" onClick={() => this.updateState('JS')} style={this.state.filter === 'JS' ? { color: 'white', backgroundColor: 'black' } : {}}>JS</button>
+                    <button className="languageBox" onClick={() => this.updateState('React')} style={this.state.filter === 'React' ? { color: 'white', backgroundColor: 'black' } : {}}>React</button>
+
                   </div>
                 </div>
                 <div className='main-Container'>

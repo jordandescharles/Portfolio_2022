@@ -18,15 +18,207 @@
     },
 
     "Print": {
-        "Cochise": {
-            "name": "Cochise",
-            "img": "./img/print/platypus.png",
-            "desc": "Jaquette de cd pour un groupe le rock psychédélique Cochise. Platypus army, au sens littéral, armée d’ornithorynque . Représentation délirante à l’image du groupe"
+        "furious2021": {
+            "source":"Print",
+            "tag":"print",
+            "CatchPhrase":"Circus Freaks",
+            "techno":"Illustrator photoshop",
+            "name": "FurioUs CirKus",
+            "img": "img/print/furious.jpg",
+            "lightDesc" :"Poster produced for the FurioUs CirKus Metal festival 2021 edition",
+            "desc": "Poster produced for the FurioUs CirKus festival 2021 edition <br/ >Carried by the association La Fabrik du bizarre, the “Furious Cirkus” claims to be a pagan temple dedicated to the worship of metal, subversive cultures and other sound or visual oddities "
         },
-        "Projet2": {
-            "name": "test",
-            "img": "./img/print/platypus.png",
-            "desc": "la teub a gg"
+        "learn": {
+            "source":"Print",
+            "tag":"web",
+            "CatchPhrase":"Help",
+            "techno":"Figma",
+            "name": "Learn@Home",
+            "img": "img/print/learn.png",
+            "lightDesc" :"Mockup for a tutoring site",
+            "desc": "Learn@Home is an association that connects children with learning difficulties with volunteer tutors. Basically, their goal is to allow any student, anywhere, to have access to remote tutoring.. <br/><br/> <a href='https://www.figma.com/file/fwFjjZbhOxh2axy3xmgy36/MAQUETTES-LEARN%40HOME' style='text-decoration:underline' target='blank'>Lien du Figma</a>"
+        },
+        "Spidtec": {
+            "source":"Print",
+            "tag":"web",
+            "CatchPhrase":"Jerry Was A Race Car Driver",
+            "techno":"Photoshop Illustrator Magento ",
+            "name": "Spidtec",
+            "img": "img/print/spidtec.jpg",
+            "lightDesc" :"Graphic redesign of the spidtec website.",
+            "desc": "Graphic redesign of the spidtec website, creation of visuals and implementation of a double navigation. Spidtec, sell depiable tents personalized or not. a wide range of products and variations, which makes the redesign process quite delicate, while remaining consistent with the previous charter so as not to upset customers too much"
+        },
+        "Wildestshirt": {
+            "source":"Print",
+            "tag":"print",
+            "CatchPhrase":"A thousand miles away",
+            "techno":"Illustrator",
+            "name": "Wildest the road",
+            "img": "img/print/tshirt.jpg",
+            "lightDesc" :"Illustration made with illustrator for Wildest",
+            "desc": "Wildest, Wildmetal band where I officiate as bassist. Creation of a visual for the release of the road, first album already available on all platforms <br/><a href='http://www.wildest.fr' target=blank style='text-decoration:underline'> le site internet </a>"
+        },
+        "IceOver": {
+            "source":"Print",
+            "tag":"print",
+            "CatchPhrase":"Ice Ice Baby",
+            "techno":"Photoshop Illustrator",
+            "name": "Ice Over",
+            "img": "img/print/iceoldschool.jpg",
+            "lightDesc" :"Logo for cover rock band ICE OVER",
+            "desc": "Logo for cover rock band ICE OVER"
+        },
+        "Machineur": {
+            "source":"Print",
+            "tag":"print",
+            "name": "Le Machineur",
+            "CatchPhrase":"The marble machine",
+            "techno":"Illustartor",
+            "img": "img/print/logoTom.png",
+            "lightDesc" :"Logo created for Le Machineur",
+            "desc": "Illustration made for a king of DIY and craft in general, if you have an idea he can certainly realize it"
+        },
+        "Hexagon": {
+            "source":"Print",
+            "tag":"print",
+            "name": "May my Heart Be Your Shelter",
+            "CatchPhrase":"Is Hexa here?",
+            "techno":"Photoshop",
+            "img": "img/print/hexagon.jpg",
+            "lightDesc" :"CD cover for a metal band: Hexagon.",
+            "desc": "CD cover for a metal band: Hexagon."
+        },
+        "SuperKou": {
+            "source":"Print",
+            "tag":"web",
+            "CatchPhrase":"Stairway to heaven",
+            "techno":"Photoshop Illustrator HTLM CSS",
+            "name": "SuperKou",
+            "img": "img/print/superkou.jpg",
+            "lightDesc" :"Webdesign created for the music store specialized in guitars",
+            "desc": "Webdesign created for the music store specialized in guitars: superkou, creation of the visual identity and the graphic charter. Integration of the superSkool, space reserved for beginners. And design of the e-commerce website. All in a fresh and dynamic atmosphere to get a website that allows you to differentiate yourself from others."
+        },
+        "Ohmydear": {
+            "source":"Print",
+            "tag":"print",
+            "name": "Lucky Animals",
+            "CatchPhrase":"A-dearable",
+            "techno":"Illustrator",
+            "img": "img/print/dear.jpg",
+            "lightDesc" :"Illustration created with illustrator",
+            "desc": "Illustration created with illustrator"
+        },
+        "batman": {
+            "source":"Print",
+            "tag":"print",
+            "CatchPhrase":"Marvelous",
+            "techno":"Illustartor",
+            "name": "Batman X Joker",
+            "img": "img/print/batman.jpg",
+            "lightDesc" :"Illustration created withillustrator",
+            "desc": "Illustration created with illustrator, I know it's from DC comics :)"
+        },
+        "Owl": {
+            "source":"Print",
+            "tag":"print",
+            "name": "Owl",
+            "CatchPhrase":"Spark Another Owl",
+            "techno":"photoshop digital painting",
+            "img": "img/print/owl.jpg",
+            "lightDesc" :"Illustration created with illustrator and photoshop",
+            "desc": "Illustration created with illustrator and photoshop"
+        },
+        "Tabasco": {
+            "source":"Print",
+            "tag":"print",
+            "name": "Tabasco Green",
+            "CatchPhrase":"Tabasco & Sweet Tea",
+            "techno":"Photoshop",
+            "img": "img/print/tabasco.jpg",
+            "lightDesc" :"Advertising tabasco Green.",
+            "desc": "Advertising tabasco Green, important to specify because, it is all the difference. The product that is 'milder' than the classic has an image of sweetened tabasco, and therefore less good. The idea of ​​this campaign is to turn this problem into a product benefit. Because we use softness as a selling point while remaining in the communication tone of Tabasco."
+        },
+        "Cochise": {
+            "source":"Print",
+            "tag":"print",
+            "name": "Cochise",
+            "CatchPhrase":"Let there be rock",
+            "techno":"Photoshop",
+            "img": "img/print/platypus.png",
+            "lightDesc" :"CD cover for a psychedelic rock band Cochise.",
+            "desc": "CD cover for a psychedelic rock band Cochise. Platypus army, in the literal sense, army of platypus. Crazy representation like the group Cochise could have made joyful pop, naive folk, trendy electro or angry metal. But there were already better than them. So, the 4 members of Cochise patiently build a repertoire and their sound. Cochise is the groove that fights with distortion, it's the funk/jazz that wants to see the audience jump, it's the soundtrack of a musical that would tell the life of an old Indian chief who has become a dilapidated dandy."
+        }
+    },
+    "Web": {
+        "ArgentBank": {
+            "source":"Web",
+            "tag":"React",
+            "CatchPhrase":"Money, get away",
+            "techno":"Javascript HTML",
+            "name": "Argent Bank",
+            "img": "img/web/argent.png",
+            "lightDesc" :"Website in JS/Redux/JWT responsive",
+            "desc": "Argent Bnak is a new bank, project which consists in implementing a secure login solution with Axios and JWT all managed with global states and Redux <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "Kasa": {
+            "source":"Web",
+            "tag":"React",
+            "CatchPhrase":"Home Sweet Home",
+            "techno":"Javascript",
+            "name": "Kasa",
+            "img": "img/web/kasa.png",
+            "lightDesc" :"Landing page html/css/JS responsive",
+            "desc": "Kasa has been in the business of renting apartments between individuals for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in private apartment rentals in France.. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "GameOn": {
+            "source":"Web",
+            "tag":"JS",
+            "CatchPhrase":"Hate It Or Love It ",
+            "techno":"Javascript",
+            "name": "GameOn",
+            "img": "img/web/gameon.png",
+            "lightDesc" :"Landing page html/css/JS responsive",
+            "desc": "GameOn, specialized in conferences and game competitions, creation of a landing page with a dynamic form. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "FishEye": {
+            "source":"Web",
+            "tag":"JS",
+            "CatchPhrase":"Shake Your Rump",
+            "techno":"Javascript",
+            "name": "FishEye",
+            "img": "img/web/fisheye.png",
+            "lightDesc" :"Accessible website html/css/JS responsive",
+            "desc": "FishEye is a website that allows freelance photographers to showcase their best work. They recently raised funds and would like to update their website.  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "petitsPlats": {
+            "source":"Web",
+            "tag":"JS",
+            "CatchPhrase":"You Eat Too Much",
+            "techno":"Javascript Vanilla",
+            "name": "Les petits plats",
+            "img": "img/web/petitsplats.png",
+            "lightDesc" :"Website html/css/JS responsive",
+            "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "Reservia": {
+            "source":"Web",
+            "tag":"Html",
+            "CatchPhrase":"Hit the road Jack",
+            "techno":"Html Css",
+            "name": "Reservia",
+            "img": "img/web/reservia.png",
+            "lightDesc" :"One page html/css responsive website",
+            "desc": "Website that allows users to find accommodation and activities in the city of their choice. Accommodations can also be filtered by theme, budget or atmosphere. design based on Material Design <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "OhMyFood": {
+            "source":"Web",
+            "tag":"Html",
+            "CatchPhrase":"Love Hungry Men",
+            "techno":"Html Css",
+            "name": "Oh my Food",
+            "img": "img/web/ohmy.png",
+            "lightDesc" :"Html/css responsive",
+            "desc": "Ohmyfood! is a young startup that would like to impose itself on the catering market. The goal is to develop a 100% mobile site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive. No more waiting times at the restaurant! <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         }
     }
 }

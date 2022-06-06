@@ -22,17 +22,27 @@
             "furious2021": {
                 "source":"Print",
                 "tag":"print",
-                "CatchPhrase":"Are you crazy ?",
+                "CatchPhrase":"Circus Freaks",
                 "techno":"Illustrator photoshop",
                 "name": "FurioUs CirKus",
                 "img": "img/print/furious.jpg",
                 "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
                 "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
             },
+            "learn": {
+                "source":"Print",
+                "tag":"web",
+                "CatchPhrase":"Help",
+                "techno":"Figma",
+                "name": "Learn@Home",
+                "img": "img/print/learn.png",
+                "lightDesc" :"Maquette pour un site de soutien scolaire",
+                "desc": "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. En gros, leur objectif est de permettre à tout élève, où qu’il soit, d’avoir accès à un soutien scolaire à distance. <br/><br/> <a href='https://www.figma.com/file/fwFjjZbhOxh2axy3xmgy36/MAQUETTES-LEARN%40HOME' style='text-decoration:underline' target='blank'>Lien du Figma</a>"
+            },
             "Spidtec": {
                 "source":"Print",
                 "tag":"web",
-                "CatchPhrase":"Back to Backend",
+                "CatchPhrase":"Jerry Was A Race Car Driver",
                 "techno":"Photoshop Illustrator Magento ",
                 "name": "Spidtec",
                 "img": "img/print/spidtec.jpg",
@@ -42,8 +52,8 @@
             "Wildestshirt": {
                 "source":"Print",
                 "tag":"print",
-                "CatchPhrase":"When the road calls you",
-                "techno":"Illustartor",
+                "CatchPhrase":"A thousand miles away",
+                "techno":"Illustrator",
                 "name": "Wildest the road",
                 "img": "img/print/tshirt.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator pour Wildest",
@@ -52,7 +62,7 @@
             "IceOver": {
                 "source":"Print",
                 "tag":"print",
-                "CatchPhrase":"Yeah Baby, Ice Over",
+                "CatchPhrase":"Ice Ice Baby",
                 "techno":"Photoshop Illustrator",
                 "name": "Ice Over",
                 "img": "img/print/iceoldschool.jpg",
@@ -63,7 +73,7 @@
                 "source":"Print",
                 "tag":"print",
                 "name": "Le Machineur",
-                "CatchPhrase":"Yes, he can do it",
+                "CatchPhrase":"The marble machine",
                 "techno":"Illustartor",
                 "img": "img/print/logoTom.png",
                 "lightDesc" :"Logo réalisé pour Le Machineur",
@@ -72,7 +82,7 @@
             "Hexagon": {
                 "source":"Print",
                 "tag":"print",
-                "name": "Hexagon",
+                "name": "May my Heart Be Your Shelter",
                 "CatchPhrase":"Is Hexa here?",
                 "techno":"Photoshop",
                 "img": "img/print/hexagon.jpg",
@@ -82,7 +92,7 @@
             "SuperKou": {
                 "source":"Print",
                 "tag":"web",
-                "CatchPhrase":"No stairway ?",
+                "CatchPhrase":"Stairway to heaven",
                 "techno":"Photoshop Illustrator HTLM CSS",
                 "name": "SuperKou",
                 "img": "img/print/superkou.jpg",
@@ -92,7 +102,7 @@
             "Ohmydear": {
                 "source":"Print",
                 "tag":"print",
-                "name": "Oh my dear",
+                "name": "Lucky Animals",
                 "CatchPhrase":"A-dearable",
                 "techno":"Illustrator",
                 "img": "img/print/dear.jpg",
@@ -102,7 +112,7 @@
             "batman": {
                 "source":"Print",
                 "tag":"print",
-                "CatchPhrase":"Marvel",
+                "CatchPhrase":"Marvelous",
                 "techno":"Illustartor",
                 "name": "Batman X Joker",
                 "img": "img/print/batman.jpg",
@@ -113,7 +123,7 @@
                 "source":"Print",
                 "tag":"print",
                 "name": "Owl",
-                "CatchPhrase":"Owl lee, she hit",
+                "CatchPhrase":"Spark Another Owl",
                 "techno":"photoshop digital painting",
                 "img": "img/print/owl.jpg",
                 "lightDesc" :"Illustration réalisée avec illustrator et photoshop",
@@ -123,7 +133,7 @@
                 "source":"Print",
                 "tag":"print",
                 "name": "Tabasco Green",
-                "CatchPhrase":"Sweeter Better Stronger",
+                "CatchPhrase":"Tabasco & Sweet Tea",
                 "techno":"Photoshop",
                 "img": "img/print/tabasco.jpg",
                 "lightDesc" :"Publicité tabasco Green.",
@@ -141,10 +151,30 @@
             }
         },
         "Web": {
+            "ArgentBank": {
+                "source":"Web",
+                "tag":"React",
+                "CatchPhrase":"Money, get away",
+                "techno":"Javascript HTML",
+                "name": "Argent Bank",
+                "img": "img/web/argent.png",
+                "lightDesc" :"Site JS/Redux/JWT responsive",
+                "desc": "Argent Bnak est une nouvelle banque, projet qui consiste a implémenter une solution de login sécurisée avec Axios et JWT le tout géré avec des state globaux et Redux <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "Kasa": {
+                "source":"Web",
+                "tag":"React",
+                "CatchPhrase":"Home Sweet Home",
+                "techno":"Javascript",
+                "name": "Kasa",
+                "img": "img/web/kasa.png",
+                "lightDesc" :"Landing page html/css/JS responsive",
+                "desc": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
             "GameOn": {
                 "source":"Web",
                 "tag":"JS",
-                "CatchPhrase":"Is this a Pokemon?",
+                "CatchPhrase":"Hate It Or Love It ",
                 "techno":"Javascript",
                 "name": "GameOn",
                 "img": "img/web/gameon.png",
@@ -154,7 +184,7 @@
             "FishEye": {
                 "source":"Web",
                 "tag":"JS",
-                "CatchPhrase":"Photo booth",
+                "CatchPhrase":"Shake Your Rump",
                 "techno":"Javascript",
                 "name": "FishEye",
                 "img": "img/web/fisheye.png",
@@ -164,7 +194,7 @@
             "petitsPlats": {
                 "source":"Web",
                 "tag":"JS",
-                "CatchPhrase":"Marmytho",
+                "CatchPhrase":"You Eat Too Much",
                 "techno":"Javascript Vanilla",
                 "name": "Les petits plats",
                 "img": "img/web/petitsplats.png",
@@ -173,7 +203,7 @@
             },
             "Reservia": {
                 "source":"Web",
-                "tag":"html",
+                "tag":"Html",
                 "CatchPhrase":"Hit the road Jack",
                 "techno":"Html Css",
                 "name": "Reservia",
@@ -183,8 +213,8 @@
             },
             "OhMyFood": {
                 "source":"Web",
-                "tag":"html",
-                "CatchPhrase":"Hunger X Hunger",
+                "tag":"Html",
+                "CatchPhrase":"Love Hungry Men",
                 "techno":"Html Css",
                 "name": "Oh my Food",
                 "img": "img/web/ohmy.png",
