@@ -1,14 +1,17 @@
 /* theme mode */
 :root {
     --background-color: #fff;
-    --text-color: #000;
-};
+    --text-color: #313131;
+}
+
+;
 
 [data-theme="dark"] {
     --background-color: #3F3F3F;
     --text-color: #fff;
-  }
- /* */ 
+}
+
+/* */
 
 .intro {
     text-align: center;
@@ -41,6 +44,7 @@
     background-color: #fff;
     width: fit-content;
     font-size: 10pt;
+    color: #313131;
     text-align: center;
     margin-right: 10px;
     padding: 3px;
@@ -99,17 +103,20 @@
 .name {
     width: fit-content;
     cursor: pointer;
-    color: black;
-    
+    color: #313131;
+    font-weight: 900;
+    text-transform: uppercase;
+
 }
-.intro .name{   
-     margin: 0 auto;
+
+.intro .name {
+    margin: 0 auto;
 }
 
 .name:hover {
-        -webkit-animation: text-shadow-pop-right 0.4s both;
-                animation: text-shadow-pop-right 0.4s both;
-    
+    -webkit-animation: text-shadow-pop-right 0.4s both;
+    animation: text-shadow-pop-right 0.4s both;
+
 }
 
 
@@ -146,28 +153,30 @@
  * animation text-shadow-pop-right
  * ----------------------------------------
  */
- @-webkit-keyframes text-shadow-pop-right {
+@-webkit-keyframes text-shadow-pop-right {
     0% {
-      text-shadow: 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75;
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        text-shadow: 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      text-shadow: 1px 0 #ef922f75, 2px 0 #ef922f75, 3px 0 #ef922f75, 4px 0 #ef922f75;
-      -webkit-transform: translateX(-4px);
-              transform: translateX(-4px);
+        text-shadow: 1px 0 #ef922f75, 2px 0 #ef922f75, 3px 0 #ef922f75, 4px 0 #ef922f75;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
     }
-  }
-  @keyframes text-shadow-pop-right {
+}
+
+@keyframes text-shadow-pop-right {
     0% {
-      text-shadow: 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75;
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        text-shadow: 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75, 0 0 #ef922f75;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
+
     100% {
-      text-shadow: 1px 0 #ef922f75, 2px 0 #ef922f75, 3px 0 #ef922f75, 4px 0 #ef922f75;
-      -webkit-transform: translateX(-4px);
-              transform: translateX(-4px);
+        text-shadow: 1px 0 #ef922f75, 2px 0 #ef922f75, 3px 0 #ef922f75, 4px 0 #ef922f75;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
     }
-  }
-  
+}

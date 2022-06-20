@@ -1,5 +1,4 @@
 import React , { Component } from 'react'
-import Darkmode from "../component/intro/Darkmode";
 import Footer from "../component/intro/Footer";
 import Intro from "../component/intro/Intro";
 import Language from "../component/intro/Language";
@@ -13,7 +12,6 @@ class Homepage extends Component {
       <Language />
       <Intro />
       <Footer />
-      <Darkmode />
       </>
     )
   }

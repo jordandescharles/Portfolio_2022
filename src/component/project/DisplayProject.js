@@ -3,7 +3,6 @@ const displayProject = (data) => {
     return ( 
         `
               <div className="project-Container">
-              
                 <div className="project-Image">
                 <img src='${data.img}' alt=''/>
                 </div>

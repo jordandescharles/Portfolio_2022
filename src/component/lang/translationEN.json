@@ -158,7 +158,17 @@
             "name": "Argent Bank",
             "img": "img/web/argent.png",
             "lightDesc" :"Website in JS/Redux/JWT responsive",
-            "desc": "Argent Bnak is a new bank, project which consists in implementing a secure login solution with Axios and JWT all managed with global states and Redux <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "Argent Bank is a new bank, project which consists in implementing a secure login solution with Axios and JWT all managed with global states and Redux <br/><br/><a href='https://github.com/jordandescharles/Descharlesjordan_13_120522- target=blank style='text-decoration:underline;color:black'> GitHub repo </a> "
+        },
+        "WildestSite": {
+            "source":"Web",
+            "tag":"HTML",
+            "CatchPhrase":"The black chest",
+            "techno":"HTML CSS",
+            "name": "Wildest",
+            "img": "img/web/wildest.jpg",
+            "lightDesc" :"Site Html one page",
+            "desc": "Wildest is about metal, not the casual one, it's wildmetal! 4 guys who loves heavy nmusique and get a lot of fun on stage <br/><br/><a href='http://www.wildest.fr/' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         },
         "Kasa": {
             "source":"Web",
@@ -168,7 +178,7 @@
             "name": "Kasa",
             "img": "img/web/kasa.png",
             "lightDesc" :"Landing page html/css/JS responsive",
-            "desc": "Kasa has been in the business of renting apartments between individuals for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in private apartment rentals in France.. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "Kasa has been in the business of renting apartments between individuals for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leaders in private apartment rentals in France.. <br/><br/><a href='projets/kasa' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         },
         "GameOn": {
             "source":"Web",
@@ -178,7 +188,17 @@
             "name": "GameOn",
             "img": "img/web/gameon.png",
             "lightDesc" :"Landing page html/css/JS responsive",
-            "desc": "GameOn, specialized in conferences and game competitions, creation of a landing page with a dynamic form. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "GameOn, specialized in conferences and game competitions, creation of a landing page with a dynamic form. <br/><br/><a href='projets/game' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+        },
+        "SportSee": {
+            "source":"Web",
+            "tag":"React",
+            "CatchPhrase":"Run",
+            "techno":"Javascript HTML",
+            "name": "SportSee",
+            "img": "img/web/sportsee.jpg",
+            "lightDesc" :"Site JS responsive",
+            "desc": "Sportsee is a fake app, for traking sport performances <br/><br/><a href='https://github.com/jordandescharles/Descharlesjordan_12_140322' target=blank style='text-decoration:underline;color:black'> GitHub repo </a> "
         },
         "FishEye": {
             "source":"Web",
@@ -188,7 +208,7 @@
             "name": "FishEye",
             "img": "img/web/fisheye.png",
             "lightDesc" :"Accessible website html/css/JS responsive",
-            "desc": "FishEye is a website that allows freelance photographers to showcase their best work. They recently raised funds and would like to update their website.  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "FishEye is a website that allows freelance photographers to showcase their best work. They recently raised funds and would like to update their website.  <br/><br/><a href='projets/photo' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         },
         "petitsPlats": {
             "source":"Web",
@@ -198,7 +218,7 @@
             "name": "Les petits plats",
             "img": "img/web/petitsplats.png",
             "lightDesc" :"Website html/css/JS responsive",
-            "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='projets/recette' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         },
         "Reservia": {
             "source":"Web",
@@ -208,7 +228,7 @@
             "name": "Reservia",
             "img": "img/web/reservia.png",
             "lightDesc" :"One page html/css responsive website",
-            "desc": "Website that allows users to find accommodation and activities in the city of their choice. Accommodations can also be filtered by theme, budget or atmosphere. design based on Material Design <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "Website that allows users to find accommodation and activities in the city of their choice. Accommodations can also be filtered by theme, budget or atmosphere. design based on Material Design <br/><br/><a href='projets/reservia' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         },
         "OhMyFood": {
             "source":"Web",
@@ -218,7 +238,7 @@
             "name": "Oh my Food",
             "img": "img/web/ohmy.png",
             "lightDesc" :"Html/css responsive",
-            "desc": "Ohmyfood! is a young startup that would like to impose itself on the catering market. The goal is to develop a 100% mobile site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive. No more waiting times at the restaurant! <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            "desc": "Ohmyfood! is a young startup that would like to impose itself on the catering market. The goal is to develop a 100% mobile site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive. No more waiting times at the restaurant! <br/><br/><a href='projets/food' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
         }
     }
 }

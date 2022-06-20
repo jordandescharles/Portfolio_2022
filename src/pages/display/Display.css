@@ -1,124 +1,167 @@
-.main-Container{
+.main-Container {
     width: 70%;
     margin: 0 auto;
     color: white;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    padding-bottom: 12vh;
 }
 
-.article-Conteneur{
+.article-Container {
     padding: 0;
     margin: 0;
+    box-shadow: 0px 0px 10px 0px #31313107;
 }
 
-.image-Container{
+.image-Container {
     height: 18vw;
-    border: solid black 3px;
+    border: solid #313131 3px;
     background-position: center;
     background-size: cover;
-    overflow: hidden 
+    overflow: hidden
 }
 
-.image-Container:hover .text-Container{
-    animation: text-up 0.5s both; 
+.image-Container:hover .text-Container {
+    animation: text-up 0.5s both;
 }
 
 .main-Container>* {
-    flex: 1 1 500px;
+    flex: 1 1 400px;
 }
 
-.text-Container{
+.text-Container {
     height: 40%;
     opacity: 0;
-    background-color: rgba(000, 000, 000);
+    background-color: #313131;
 }
 
-.text-Container h2{
+.text-Container h2 {
     margin: 0;
-    padding: 10px 20px; 
-    font-size: 1.2vw; 
-}
-.text-Container p{
-    margin: 0;
-    padding: 5px 20px; 
-    font-size: 1vw; 
+    padding: 10px 20px;
+    font-size: 1.2vw;
 }
 
-.tag-Container{
-    font-size: 1vw; 
+.text-Container p {
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 1vw;
+}
+
+.tag-Container {
+    font-size: 1vw;
     text-decoration: underline;
 
 }
 
-.title{
+.title {
     width: fit-content;
     padding: 5px;
-    background-color: black;
+    background-color: #313131;
     color: white;
 }
-.title h2{
-    padding:0;
+
+.title h2 {
+    padding: 0;
     margin: 0;
 }
 
-.title-Container{
+.title-Container {
     max-width: 70%;
     margin: 0 auto;
     padding: 8vh 0;
     display: flex;
     justify-content: space-between;
-    transform: translate(-20px , 0px);
-}
-.filter-Btn{
-    transform: translate(30px , 0px);
+    transform: translate(-20px, 0px);
 }
 
-.Cross-Page{
+.filter-Btn {
+    transform: translate(30px, 0px);
+}
+
+.Cross-Page {
     display: block;
-    background-color: black;
+    background-color: #313131;
     color: white;
     font-size: 12pt;
     width: 20px;
     height: 20px;
-    text-align: center;  
-    transform: translate(0px , -20px);
+    text-align: center;
+    transform: translate(0px, -20px);
 }
-a.white-Link, a.white-Link:visited{  
+
+a.white-Link,
+a.white-Link:visited {
     color: white;
     text-transform: none;
 }
 
 /* animation */
- 
- @-webkit-keyframes text-up {
+
+@-webkit-keyframes text-up {
     0% {
         -webkit-transform: translateY(50%);
-                transform: translateY(50%);
+        transform: translateY(50%);
         -webkit-opacity: 0;
-                opacity: 0;
+        opacity: 0;
     }
 
     100% {
-    -webkit-transform: translateY(150%);
-            transform: translateY(150%);
-    -webkit-opacity: 1;
-            opacity: 1;
+        -webkit-transform: translateY(150%);
+        transform: translateY(150%);
+        -webkit-opacity: 1;
+        opacity: 1;
     }
-  }
-  @keyframes text-up{
+}
+
+@keyframes text-up {
     0% {
         -webkit-transform: translateY(50%);
-                transform: translateY(50%);
+        transform: translateY(50%);
         -webkit-opacity: 0;
-                opacity: 0;
+        opacity: 0;
     }
 
     100% {
-    -webkit-transform: translateY(150%);
-            transform: translateY(150%);
-    -webkit-opacity: 1;
-            opacity: 1;
+        -webkit-transform: translateY(150%);
+        transform: translateY(150%);
+        -webkit-opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
+
+@media (max-width: 768px) {
+
+
+    .filter-Btn {
+        display: none;
+    }
+
+    .image-Container {
+        height: 40vw;
+    }
+
+    .main-Container {
+        gap: 30px;
+        width: 85%;
+    }
+
+    .title-Container {
+        max-width: 80%;
+        padding: 8vh 0 3vh 0;
+    }
+
+    .text-Container h2 {
+        font-size: 2.5vw;
+        padding: 10px 0 0 20px;
+    }
+
+    .text-Container p {
+        font-size: 2.2vw;
+    }
+
+    .tag-Container {
+        font-size: 2.2vw;
+    }
+
+}

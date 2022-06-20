@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import {displayWorks} from './Display'
-import parse from 'html-react-parser';
+import DisplayWorks from './Display'
 
 var arrayPrint = []
 
@@ -18,9 +17,11 @@ export default function DisplayPage(props) {
         arrayPrint.push(list[property])
     }
 }
-
-const result = displayWorks(arrayPrint)
-
-return parse(result);
+return <>
+  { arrayPrint.map(data => 
+  <DisplayWorks data={data} key={data.name}/> 
+  )}
+       
+        </>
 
   }

@@ -1,21 +1,21 @@
-import React, { Component } from 'react'
+
 import GetProject from './GetProject';
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
-const urlcourante = document.location.href;
-const url = new URL(urlcourante);
-const source = url.searchParams.get("source");
-const sourceLink = '/' + source;
-const name = url.searchParams.get("name");
 
-export default class ProjectView extends Component {
+const ProjectView = () => {
 
-  render() {
+  const params = useParams()
+  const {name,source} = params
+    
+  console.log(name + "test")
+
     return ( 
       <>
         <div className='title-Container'>
           <div style={{ display: 'flex' }}>
-            <Link to={sourceLink} ><span className='Cross-Page' >X</span></Link>
+            <Link to={"/"+source} ><span className='Cross-Page' >X</span></Link>
             <div className='title'>
               <h2>{name}</h2>
             </div>
@@ -24,5 +24,7 @@ export default class ProjectView extends Component {
           <GetProject name={name} source={source} />
         </>
         );
-  }
+  
 }
+
+export default ProjectView

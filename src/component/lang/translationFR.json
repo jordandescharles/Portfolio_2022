@@ -8,14 +8,14 @@
         },
 
         "Bio": {
-            "part1": "Qui suis-je?",
-            "part2": "Jordan Descharles, né en 91 vivant á Lille",
+            "part1": "Qui suis-je ?",
+            "part2": "Jordan Descharles, né en 91 vivant à Lille",
             "part3": "Au départ designer graphique, depuis tout jeune je suis attiré par les ordinateurs même si je n'en ai eu qu'un vers mes 15 ans.Avant cela je m'amusais a dessiner sur Paint avec l'ordinateur chez d'autres gens et uniquement avec une souris a boule (je sais c'est horrible).",
-            "part4": "Après un diplome d'Arts Appliqués ,je suis allé en BTS communication pour devenir webdesigner,suite á cela j'ai pu intégrer une superbe agence de communication pour une alternance, ou j'ai été formé á faire des sites internet simples et de la publicité papier",
+            "part4": "Après un diplome d'Arts Appliqués ,je suis allé en BTS communication pour devenir webdesigner,suite à cela j'ai pu intégrer une superbe agence de communication pour une alternance, ou j'ai été formé à faire des sites internet simples et de la publicité papier",
             "part5": "Les années ont passé et mon envie de créer des sites internet plus poussés s'est accentuée. J'ai quité mon travail de webdesigner et me suis mis en quete d'une bonne ecole. Après une mauvaise expérience, j'ai rejoins Openclassrooms sur un cursus développeur web front end qui inclus des projest avec React et d'autres technologies utiles.",
             "part6": "Maintenant je suis sur la fin de mon cursus et je recherche un job de développeur junior.",
             "part7": "Si vous avez des questions: descharlesjordan[at]yahoo.com",
-            "part8": "vous pouvez télécharger mon CV ici: link"
+            "part8": "vous pouvez télécharger mon CV ici:"
         },
 
         "Print": {
@@ -27,7 +27,7 @@
                 "name": "FurioUs CirKus",
                 "img": "img/print/furious.jpg",
                 "lightDesc" :"Affiche réalisée pour le festival FurioUs CirKus édition 2021",
-                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021> Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
+                "desc": "Affiche réalisée pour le festival FurioUs CirKus édition 2021 . Porté par l’association La Fabrik du bizarre, le “Furious Cirkus” se revendique temple païen voué à l’adoration du metal, des cultures subversives et autres bizarreries sonores ou visuelles "
             },
             "learn": {
                 "source":"Print",
@@ -159,7 +159,17 @@
                 "name": "Argent Bank",
                 "img": "img/web/argent.png",
                 "lightDesc" :"Site JS/Redux/JWT responsive",
-                "desc": "Argent Bnak est une nouvelle banque, projet qui consiste a implémenter une solution de login sécurisée avec Axios et JWT le tout géré avec des state globaux et Redux <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "Argent Bank est une nouvelle banque, projet qui consiste a implémenter une solution de login sécurisée avec Axios et JWT le tout géré avec des state globaux et Redux <br/><br/><a href='https://github.com/jordandescharles/Descharlesjordan_13_120522-' target=blank style='text-decoration:underline;color:black'> le repo GitHub </a> "
+            },
+            "WildestSite": {
+                "source":"Web",
+                "tag":"HTML",
+                "CatchPhrase":"The black chest",
+                "techno":"HTML CSS",
+                "name": "Wildest",
+                "img": "img/web/wildest.jpg",
+                "lightDesc" :"Site Html one page",
+                "desc": "Wildest c'est du metal, pas n'importe lequel, du wildmetal! 4 fan de musique qui tache qui font du bruit et qui s'amusent beaucoup sur scene <br/><br/><a href='http://www.wildest.fr/' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             },
             "Kasa": {
                 "source":"Web",
@@ -169,7 +179,7 @@
                 "name": "Kasa",
                 "img": "img/web/kasa.png",
                 "lightDesc" :"Landing page html/css/JS responsive",
-                "desc": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. <br/><br/><a href='projets/kasa' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             },
             "GameOn": {
                 "source":"Web",
@@ -179,7 +189,17 @@
                 "name": "GameOn",
                 "img": "img/web/gameon.png",
                 "lightDesc" :"Landing page html/css/JS responsive",
-                "desc": "GameOn, spécialisée dans les conférences et les concours de jeux, création d'une landing page avec un formulaire dynamique. <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "GameOn, spécialisée dans les conférences et les concours de jeux, création d'une landing page avec un formulaire dynamique. <br/><br/><a href='projets/game' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+            },
+            "SportSee": {
+                "source":"Web",
+                "tag":"React",
+                "CatchPhrase":"Run",
+                "techno":"Javascript HTML",
+                "name": "SportSee",
+                "img": "img/web/sportsee.jpg",
+                "lightDesc" :"Site JS responsive",
+                "desc": "Sportsee est une app fictive de tracking de l'activité physique <br/><br/><a href='https://github.com/jordandescharles/Descharlesjordan_12_140322' target=blank style='text-decoration:underline;color:black'> le repo GitHub </a> "
             },
             "FishEye": {
                 "source":"Web",
@@ -189,7 +209,7 @@
                 "name": "FishEye",
                 "img": "img/web/fisheye.png",
                 "lightDesc" :"Site accessible html/css/JS responsive",
-                "desc": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Ils ont récemment levé des fonds et aimeraient mettre à jour leur site web.  <br/><br/><a href='projets/photo' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             },
             "petitsPlats": {
                 "source":"Web",
@@ -199,7 +219,7 @@
                 "name": "Les petits plats",
                 "img": "img/web/petitsplats.png",
                 "lightDesc" :"Site html/css/JS responsive",
-                "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "site de recettes de cuisine simples avec recherches croisées  <br/><br/><a href='projets/recette' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             },
             "Reservia": {
                 "source":"Web",
@@ -209,7 +229,7 @@
                 "name": "Reservia",
                 "img": "img/web/reservia.png",
                 "lightDesc" :"Site one page html/css responsive",
-                "desc": "site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, budget ou ambiance. design basé sur le Material Design <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, budget ou ambiance. design basé sur le Material Design <br/><br/><a href='projets/reservia' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             },
             "OhMyFood": {
                 "source":"Web",
@@ -219,7 +239,7 @@
                 "name": "Oh my Food",
                 "img": "img/web/ohmy.png",
                 "lightDesc" :"Site html/css responsive",
-                "desc": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! <br/><br/><a href='#' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
+                "desc": "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! <br/><br/><a href='projets/food' target=blank style='text-decoration:underline;color:black'> le site internet </a> "
             }
         }
     }

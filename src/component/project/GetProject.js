@@ -7,7 +7,7 @@ import DisplayProject from './DisplayProject';
 var selectedProject = ''
 
 const GetProject = (props) => {
-
+   
     const { t } = useTranslation();
     const list = t(props.source, { returnObjects: true })
     for (const property in list) {
